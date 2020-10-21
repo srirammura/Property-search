@@ -17,7 +17,14 @@ The 4 parameters are :
 - Created 1000 properties mock data in database to match with the requirements.
   - assumed bedrooms & bathrooms between 1 to 6
   - assumed price between $ 1k to 10k
-- Using [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula) to calculate distance between two points in kilometers
+- Using Haversine Formula to calculate distance between two points in kilometers
+```
+def distance(lat1, lon1, lat2, lon2):
+    p = 0.017453292519943295
+    a = 0.5 - cos((lat2 - lat1) * p) / 2 + cos(lat1 * p) * \
+        cos(lat2 * p) * (1 - cos((lon2 - lon1) * p)) / 2
+    return 12742 * asin(sqrt(a)) # in kms
+```
    
 
 
