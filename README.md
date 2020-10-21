@@ -36,7 +36,7 @@ Here's the steps for one data:
 
 After indivisually calculating matching of every field, I'm then merging them according to the provided weightage:
 
-```
+
 DISTANCE_WEIGHT = 0.3
 BUDGET_WEIGHT = 0.3
 BATHROOM_WEIGHT = 0.2
@@ -47,7 +47,6 @@ Result(in %age)  = distance_match * DISTANCE_WEIGHT
         + bedroom_match * BEDROOM_WEIGHT
         + bathroom_match * BATHROOM_WEIGHT
 
-```
 
 
-- - -
+
