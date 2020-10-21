@@ -10,7 +10,7 @@ The 4 parameters are :
  - Number of bathrooms (Low weightage)
 
 
-#### Assumptions made:
+#### Assumptions 
 
 - Since it is not mentioned that the valid budget +/- 25% has to be taken from min/max budget value, I assumed the average value to calculate the +/- 25% and the added both sides.
 - Assuming all the data will be provided
