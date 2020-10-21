@@ -2,6 +2,14 @@
 
 #### Problem Statement:
 
+Write the most efficient algorithm that helps s determine a list of matches with match percentages for each match between a huge set of properties (sale and rental) and buyer/renter search criteria as and when a new property or a new search criterion is added to our network by an agent. This algorithm should match these properties and search criteria as they come in based on 4 parameters such that each match has a  match percentage.
+The 4 parameters are : 
+ - Distance - radius (high weightage)
+ - Budget (high weightage)
+ - Number of bedrooms (low weightage)
+ - Number of bathrooms (Low weightage)
+
+
 #### Assumptions made:
 
 - Since it is not mentioned that the valid budget +/- 25% has to be taken from min/max budget value, I assumed the average value to calculate the +/- 25% and the added both sides.
@@ -9,7 +17,7 @@
 - Created 1000 properties mock data in database to match with the requirements.
   - assumed bedrooms & bathrooms between 1 to 6
   - assumed price between $ 1k to 10k
-- Using [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula) to calculate distance between two points in miles
+- Using [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula) to calculate distance between two points in kilometers
    
 
 
