@@ -49,9 +49,9 @@ Result(in %age)  = distance_match * DISTANCE_WEIGHT
 
 ```
 
-Bathrooms | Bedrooms | Emailid | Latitude | Longitude | Matchname | Price
+Bathrooms | Bedrooms | Emailid | Latitude | Longitude | Matchname | Price |
 ----------------------------------------------------------------------------
-0	2	2	mheaviside0@symantec.com	1	18.372139	121.511128	100.0	Jerde Group	8305.39
+0 | 2	| 2 | mheaviside0@symantec.com | 1 | 18.372139 | 121.511128 |100.0 | Jerde Group | 8305.39 |
 1	2	2	ddybbe6@dell.com	7	59.917331	10.818031	70.0	Altenwerth Inc	8435.96
 2	3	3	opharrow1@time.com	2	45.262508	17.427272	64.0	Murray-Schaden	8911.71
 3	4	4	abadrick2@nba.com	3	-7.325472	108.207356	58.0	Mante Inc	7741.58
